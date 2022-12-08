@@ -1,0 +1,54 @@
+.search-clinic-container {
+    height: 100vh;
+    z-index: 2000;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 50px;
+    overflow-y: scroll;
+
+    .search-header {
+        background: #eeeaea;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding-left: 20px;
+
+        .header {
+            line-height: 50px;
+            font-size: 20px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-right: 15px;
+        }
+    }
+
+    
+
+    .section-body {
+        .section-customize {
+            display: block;
+            overflow: hidden;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+
+            .bg-image {
+                border-radius: 50% !important;
+                width: 100px !important;
+                height: 100px !important;
+            }
+
+            .clinic-name {
+                padding-top: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+}
